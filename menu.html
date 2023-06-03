@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+</head>
+<body >
+        <!--navbar-->
+        <header >
+            <a href="#" class="logo">
+                <img src="images/logo.jpg" alt="">
+            </a>
+        <nav>
+
+                <li><a href="index.html" class="act">HOME</a></li>
+                <li><a href="sign.html" class="sign">Sign In</a></li>
+                
+        </nav>
+        </header>
+        <!--filter-->
+        <aside class="food-type" id="food-type">
+            <button class="dropbtn">MENU
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()"> <i class="fa fa-caret-down"></i></a>
+                </button>
+              <div class="food-filter" id="food">
+                  <button type="button" class="buttons active-btn" id="musttry-item">Must Try</button>
+                  <button type="button" class="buttons" id ="pizza-item">PIZZA</button>
+                  <button type="button" class="buttons" id ="milktea-item">DRINKS</button>
+                  <button type="button" class="buttons" id ="combo-item">BREAKFAST</button>
+                  <button type="button" class="buttons" id ="merienda-item">MERIENDA MEALS</button>
+          </div>
+    
+      </aside>
+      <!--itemheading-->
+      <section class="item-heading" id="item-heading">
+        <div class="item-btn">
+            <h6 id="title">MUST TRY</h6>
+        </div>
+      </section>
+      <!--item-->
+      <section class="food-item" id="food-item">
+      <div class="food-items musttry-item">
+          <img src="images/chi.png" alt="">
+          <h1>CHICKEN BURGERS</h1>
+          <p>₱ 120.00</p>
+          <button onclick="delivery()" type="button"   id="now-btn">Order Now</button>
+      </div>
+      <div class="food-items musttry-item">
+          <img src="images/image.webp" alt="">
+          <h1>LASAGNA</h1>
+          <p>₱111.OO<p>
+          <button type="button" onclick="delivery()"  id="now-btn">Order Now</button>
+      </div>
+      <div class="food-items musttry-item">
+          <img src="images/item1.png" alt="">
+          <h1>Sulit Meal</h1>
+          <p>₱ 135.00</p>
+          <button type="button"  onclick="delivery()" id="now-btn">Order Now</button>
+      </div>
+      <div class="food-items musttry-item">
+          <img src="images/ramen.png" alt="">
+          <h1>RAMEN</h1>
+          <p>₱ 179.00</p>
+          <button type="button"  onclick="delivery()" id="now-btn">Order Now</button>
+      </div>
+      <div class="food-items pizza-item">
+          <img src="images/img2.webp" alt="">
+          <h1>5-Cheese & Veggies Overload</h1>
+          <p>₱ 151.00</p>
+          <button type="button"  onclick="delivery()" id="now-btn">Order Now</button>
+      </div>
+      <div class="food-items pizza-item">
+          <img src="images/IMG3.webp" alt="">
+          <h1>4 Cheese Overload</h1>
+          <p>₱ 297.00</p>
+          <button type="button"  onclick="delivery()" id="now-btn">Order Now</button>
+      </div>
+      <div class="food-items pizza-item">
+          <img src="images/IMG4.webp" alt="">
+          <h1>Pepperoni Overload</h1>
+          <p>₱ 140.00</p>
+          <button type="button" onclick="delivery()" id="now-btn">Order Now</button>
+      </div>
+      <div class="food-items pizza-item">
+          <img src="images/IMG5.webp" alt="">
+          <h1>All Beef Overload</h1>
+          <p>₱ 487.00</p>
+          <button type="button" onclick="delivery()" id="now-btn">Order Now</button>
+      </div>
+      <div class="food-items pizza-item">
+          <img src="images/IMG6.webp" alt="">
+          <h1>Bacon Overload</h1>
+          <p>₱ 151.00</p>
+          <button type="button" onclick="delivery()" id="now-btn">Order Now</button>
+      </div>
+      <div class="food-items pizza-item">
+          <img src="images/IMG7.webp" alt="">
+          <h1>All Meat Overload</h1>
+          <p>₱ 151.00</p>
+          <button type="button" onclick="delivery()" id="now-btn">Order Now</button>
+      </div>
+      <div class="food-items pizza-item">
+          <img src="images/IMG8.webp" alt="">
+          <h1>Ham & Cheese Classic</h1>
+          <p>₱ 121.00</p>
+          <button type="button"  onclick="delivery()"id="now-btn">Order Now</button>
+      </div>
+      <div class="food-items pizza-item">
+          <img src="images/img9.webp" alt="">
+          <h1>Cheeseburger Classic
+</h1>
+          <p>₱ 269.00</p>
+          <button type="button"  onclick="delivery()"id="now-btn">Order Now</button>
+      </div>
+      <div class="food-items milktea-item">
+        <img src="images/ube.png" alt="">
+        <h1>Ube Grahan Milk Shake</h1>
+        <p> Starts at ₱90</p>
+        <button type="button" onclick="delivery()" id="now-btn">Order Now</button>
+    </div>
+    <div class="food-items milktea-item">
+        <img src="images/choco.png" alt="">
+        <h1>Coffee Crumble</h1>
+        <p> Starts at ₱ 110.00</p>
+        <button type="button"  onclick="delivery()"id="now-btn">Order Now</button>
+    </div>
+    <div class="food-items milktea-item">
+        <img src="images/drinks.webp" alt="">
+        <h1>SPRITE</h1>
+        <p>₱ 53.00
+            
+        </p>
+        <button type="button"  onclick="delivery()"id="now-btn">Order Now</button>
+    </div>
+    <div class="food-items milktea-item">
+        <img src="images/royal.webp" alt="">
+        <h1>ROYAL</h1>
+        <p>₱ 53.00</p>
+        <button type="button"  onclick="delivery()"id="now-btn">Order Now</button>
+    </div>
+    <div class="food-items milktea-item">
+        <img src="images/ice.PNG" alt="">
+        <h1>ICED TEA</h1>
+        <p>₱ 64.00</p>
+        <button type="button"  onclick="delivery()"id="now-btn">Order Now</button>
+    </div>
+    <div class="food-items milktea-item">
+        <img src="images/coke.webp" alt="">
+        <h1>COCA COLA</h1>
+        <p>₱ 53.00</p>
+        <button type="button" onclick="delivery()" id="now-btn">Order Now</button>
+    </div>
+    <div class="food-items combo-item">
+        <img src="images/corn1.png" alt="">
+        <h1>Corned Beef</h1>
+        <p> ₱ 153.00</p>
+        <button type="button"  onclick="delivery()"id="now-btn">Order Now</button>
+    </div>
+    <div class="food-items combo-item">
+        <img src="images/beef-.png" alt="">
+        <h1>Beef Tapa</h1>
+        <p>₱ 153.00</p>
+        <button type="button"  onclick="delivery()"id="now-btn">Order Now</button>
+    </div>
+    <div class="food-items combo-item">
+        <img src="images/longs (1).png" alt="">
+        <h1>Longganisa</h1>
+        <p>₱ 153.00</p>
+        <button type="button" onclick="delivery()" id="now-btn">Order Now</button>
+    </div>
+    <div class="food-items combo-item">
+        <img src="images/hot.png" alt="">
+        <h1>Breakfast Hotdog</h1>
+        <p>₱ 106.00</p>
+        <button type="button"  onclick="delivery()" id="now-btn">Order Now</button>
+    </div>
+    <div class="food-items combo-item">
+        <img src="images/pan1.png" alt="">
+        <h1>2 - pc. Pancakes</h1>
+        <p>₱ 70.00</p>
+        <button type="button"  onclick="delivery()"id="now-btn">Order Now</button>
+    </div>
+    <div class="food-items combo-item">
+        <img src="images/steak1.png" alt="">
+        <h1>Breakfast Burger Steak</h1>
+        <p>₱ 117.00</p>
+        <button type="button"  onclick="delivery()"id="now-btn">Order Now</button>
+    </div>
+    <div class="food-items merienda-item">
+        <img src="images/no-bg-nac.png" alt="">
+        <h1>NACHOS</h1>
+        <p>₱ 99.00</p>
+        <button type="button"  onclick="delivery()"id="now-btn">Order Now</button>
+    </div>
+    <div class="food-items merienda-item">
+        <img src="images/pasta.png" alt="">
+        <h1>CARBONARA</h1>
+        <p>₱ 149.00</p>
+        <button type="button"  onclick="delivery()"id="now-btn">Order Now</button>
+    </div>
+    <div class="food-items merienda-item">
+        <img src="images/fries.png" alt="">
+        <h1>FRENCH FRIES</h1>
+        <p>₱ 80.00</p>
+        <button type="button"  onclick="delivery()"id="now-btn">Order Now</button>
+    </div>
+    <div class="food-items pizza-item">
+        <img src="images/image (1).webp" alt="">
+        <h1>Roast Beef & Cream Cheese Overload</h1>
+        <p>₱ 386.00</p>
+        <button type="button" onclick="delivery()" id="now-btn">Order Now</button>
+    </div>
+      </section>
+
+
+
+
+
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+        <script src="main.js"></script>
+
+        <script>
+            function delivery(){
+    document.location.href="location.html";
+            }
+
+        </script>
+</body>
+</html>

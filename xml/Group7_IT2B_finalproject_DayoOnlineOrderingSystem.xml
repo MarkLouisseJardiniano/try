@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<website>
+  <title>Dayo Online Ordering System</title>
+  <author>Group7</author>
+  <description>All goods</description>
+  <homepage>/index.html</homepage>
+  <pages>
+    <page>
+      <title>Home</title>
+      <link>/index.php</link>
+    </page>
+    <page>
+      <title>About</title>
+      <link>/aboutus.php</link>
+    </page>
+    <page>
+      <title>Menu
+      </title>
+      <link>/menu.php</link>
+    </page>
+    <!-- Add more pages as needed -->
+  </pages>
+</website>

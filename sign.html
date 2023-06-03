@@ -14,14 +14,10 @@
 <body>
         <!--navbar-->
         <header>
-            <nav>
             <a href="#" class="logo">
-                <img src="images/logo.jpg" alt="">
-               
+                <img src="logo.jpg" alt="">
             </a>
-            <input type="checkbox" id="check">
-            <label for="check" id="checkbtn"><i class="fa-solid fa-bars"></i></label>
-        
+        <nav>
             <ul >
                 <li><a href="index.html" class="active">HOME</a></li>
                 <li><a href="menu.html">MENU</a></li>
@@ -29,6 +25,8 @@
                 <li><a href="location.html">LOCATION</a></li>
                 <li><a href="reservation.html">RESERVATION</a></li>
             </ul>
+            <li><a href="index.html" class="act">HOME</a></li>
+            <li><a href="signin.html" class="sign">Sign In</a></li>
         </nav>
         </header>
 
@@ -130,26 +128,3 @@
         
         </footer>
         
-
-
-    
-    
-        <!-- link script -->
-        <script>
-
-const containers = document.getElementById('containers')
-const overlayCon = document.getElementById('overlayCon')
-const overlayBtn = document.getElementById('overlayBtn')
-
-overlayBtn.addEventListener('click', () => {
-    containers.classList.toggle('right-panel-active');
-
-    overlayBtn.classList.remove('btnScaled');
-    window.requestAnimationFrame( ()=> {
-        overlayBtn.classList.add('btnScaled');
-    })
-});
-
-        </script>
-</body>
-</html>

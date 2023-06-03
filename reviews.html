@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <title>Dayo</title>
     <link rel="shortcut icon" href="logo.jpg" type="image/x-icon">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css?v=<?php echo time(); ?>">
     <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
     <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
@@ -14,8 +14,7 @@
 <body>
     <!--navbar-->
 
-
-<header>
+    <header>
         <nav>
             <a href="#" class="logo">
                 <img src="logo.jpg" alt="">
@@ -31,84 +30,49 @@
             </ul>
         </nav>
         </header>
-    <section class="home" id="home">
-        <div class="home-text">
-            <h1>DAYO</h1>
-        </div>
-        <div class="home-img">
-            <img src="images/bg.jpg" alt="">
-        </div>
-    </section>
-    <!--heading-->
-    <section class="heading" id="heading">
-        <div class="menu-heading">
-            <h3>FEATURED MENU</h3>
-        </div>
-    </section>
-    <!--menu-->
-    <section class="menu" id="menu">
-        <div class="menu-item">
-            <h1>Pizza</h1>
-            <p>No meat, less guilt, overloaded goodness with 5 different kinds of cheeses, creamy pesto and roasted mushrooms</p>
-            <img src="images/img2.webp" alt="">
-        </div>
-        <div class="menu-item">
-            <h1>Must try</h1>
-            <p>Our bestseller, mas sulit na! Lasagna with loaded layers of beef, lots of cheese & flavorful tomato sauce.</p>
-            <img src="images/image.webp" alt="">
-        </div>
-        <div class="menu-item">
-            <h1>Merienda Meals</h1>
-            <p>These nachos are healthy, boasting plenty of folate, fibre and vitamin c</p>
-            <img src="images/no-bg-nac.png" alt="">
-        </div>
-    </section>
-    <!--orderbtn-->
-    <section class="order" id="order">
-        <div class="order-btn">
-            <button onclick="orderpage()" id="orderbtn">Order Now</button>
-        </div>
-    </section>
-    <!--about-->
-    <section class="about" id="about">
-    <div class="aboutmain">
-        <img src="images/about.jpg" alt="">
-    <div class="about-text">
-        <h5>About Us</h5>
-        <p>Welcome to Dayo Restaurant, where culinary excellence meets warm hospitality. Nestled in the heart of the Philippines, we are a premier dining destination that celebrates the art of food and the joy of sharing a meal with loved ones.
-</p>
-    </div>
-</section>
+<div class="rev">
+    <h1>Reviews</h1>
 
-<div class="gal">   
-    <div class="gallery-" id="gallery">
-        <h5>Gallery</h5>
+    <div class="reviews">
+<br>
+    <img src="images/about.jpg" alt="">
+    <h2>Lebron James</h2>
+    <p>"their service and hospitality are excellent. One of the staff working with her smiles and making us confortable meanwhile i was staying there."</p>
     </div>
 </div>
-    <div class="gal-">
-    <div class="gallery" id="gallery">
-            <img src="images/gal1.jpg" alt="">
+<div class="reviews">
+<br>
+    <img src="images/kobe.webp" alt="">
+    <h2>Kobe Braynt</h2>
+    <p>"Excellent service! They helped us surprise my grandfather with a delicious Lasagna when my grandfather he thought we were only having coffee."</p>
     </div>
-    <div class="gallery" id="gallery">
-        <img src="images/gal2.jpg" alt="">
 </div>
- <div class="gallery" id="gallery">
-            <img src="images/gal3.jpg" alt="">
+<div class="reviews">
+<br>
+    <img src="images/durant.jpg" alt="">
+    <h2>Kevin Durant</h2>
+    <p>"Excellent food. Service is quick and the staff is so accommodating and efficient. Good music in the background completes the fine dining experience. Keep up the good work guys!"</p>
     </div>
-     <div class="gallery" id="gallery">
-            <img src="images/gal4.jpg" alt="">
-    </div>
-     <div class="gallery" id="gallery">
-            <img src="images/about.jpg" alt="">
-    </div>
-    <div class="gallery" id="gallery">
-        <img src="images/bg.jpg" alt="">
 </div>
+<div class="reviews">
+<br>
+    <img src="images/about.jpg" alt="">
+    <h2>Julius Randle</h2>
+    <p>"I visited this restaurant second time, still great in food and service, can't wait to bring my friends so that they will feel the awesomeness of this restaurant.
 
+"</p>
+    </div>
+    <div class="reviews">
+<br>
+
+    <h2>Write A Review</h2>
+    <input type="text">
+    <br>
+    <button>Submit</button>
+    </div>
 </div>
 
 
-<!--footer-->
 <footer class="footer">
     <div class="container">
         <div class="row">
@@ -151,8 +115,6 @@
     </div>
 
 </footer>
-
-
 
 
 

@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DayoOnlineOrderingSystem>
+  <menu>
+    <image>chi.png</image>
+    <title>CHICKEN BURGERS</title>
+    <price>₱ 120.00</price>
+    <category>musttry-item</category>
+  </menu>
+  <menu>
+    <image>image.webp</image>
+    <title>LASAGNA</title>
+    <price>₱ 111.00</price>
+    <category>musttry-item</category>
+  </menu>
+  <menu>
+    <image>item1.png</image>
+    <title>Sulit Meal</title>
+    <price>₱ 135.00</price>
+    <category>musttry-item</category>
+  </menu>
+  <menu>
+    <image>ramen.png</image>
+    <title>RAMEN</title>
+    <price>₱ 179.00</price>
+    <category>musttry-item</category>
+  </menu>
+  <menu>
+    <image>img2.webp</image>
+    <title>Cheese &amp; Veggies Overload</title>
+    <price>₱ 151.00</price>
+    <category>pizza</category>
+  </menu>
+  <menu>
+    <image>IMG3.webp</image>
+    <title>Cheese Overload</title>
+    <price>₱ 297.00</price>
+    <category>pizza</category>
+  </menu>
+  <menu>
+    <image>IMG4.webp</image>
+    <title>Pepperoni Overload</title>
+    <price>₱ 140.00</price>
+    <category>pizza</category>
+  </menu>
+  <menu>
+    <image>IMG5.webp</image>
+    <title>All Beef Overload</title>
+    <price>₱ 487.00</price>
+    <category>pizza</category>
+  </menu>
+  <menu>
+    <image>IMG6.webp</image>
+    <title>Bacon Overload</title>
+    <price>₱ 151.00</price>
+    <category>pizza</category>
+  </menu>
+  <menu>
+    <image>IMG7.webp</image>
+    <title>All Meat Overload</title>
+    <price>₱ 151.00</price>
+    <category>pizza</category>
+  </menu>
+  <menu>
+    <image>IMG8.webp</image>
+    <title>Ham &amp; Cheese Classic</title>
+    <price>₱ 121.00</price>
+    <category>pizza</category>
+  </menu>
+  <menu>
+    <image>IMG9.webp</image>
+    <title>Cheeseburger Classic</title>
+    <price>₱ 269.00</price>
+    <category>pizza</category>
+  </menu>
+  <menu>
+    <image>ube.png</image>
+    <title>Ube Grahan Milk Shake</title>
+    <price>Starts at ₱90</price>
+    <category>drinks</category>
+  </menu>
+  <menu>
+    <image>choco.png</image>
+    <title>Coffee Crumble</title>
+    <price>Starts at ₱110.00</price>
+    <category>drinks</category>
+  </menu>
+  <menu>
+    <image>drinks.webp</image>
+    <title>SPRITE</title>
+    <price>₱ 53.00</price>
+    <category>drinks</category>
+  </menu>
+  <menu>
+    <image>royal.webp</image>
+    <title>ROYAL</title>
+    <price>₱ 53.00</price>
+    <category>drinks</category>
+  </menu>
+  <menu>
+    <image>ice.PNG</image>
+    <title>ICED TEAL</title>
+    <price>₱ 64.00</price>
+    <category>drinks</category>
+  </menu>
+  <menu>
+    <image>coke.webp</image>
+    <title>COCA COLA</title>
+    <price>₱ 53.00</price>
+    <category>drinks</category>
+  </menu>
+  <menu>
+    <image>corn1.png</image>
+    <title>Corned Beef</title>
+    <price>₱ 153.00</price>
+    <category>breakfast</category>
+  </menu>
+  <menu>
+    <image>beef-.png</image>
+    <title>Beef Tapa</title>
+    <price>₱ 153.00</price>
+    <category>breakfast</category>
+  </menu>
+  <menu>
+    <image>longs (1).png</image>
+    <title>Longganisa</title>
+    <price>₱ 153.00</price>
+    <category>breakfast</category>
+  </menu>
+  <menu>
+    <image>hot.png</image>
+    <title>Breakfast Hotdog</title>
+    <price>₱ 106.00</price>
+    <category>breakfast</category>
+  </menu>
+  <menu>
+    <image>pan1.png</image>
+    <title>Pancakes</title>
+    <price>₱ 70.00</price>
+    <category>breakfast</category>
+  </menu>
+  <menu>
+    <image>steak1.png</image>
+    <title>Breakfast Burger Steak</title>
+    <price>₱ 117.00</price>
+    <category>breakfast</category>
+  </menu>
+  <menu>
+    <image>no-bg-nac.png</image>
+    <title>NACHOS</title>
+    <price>₱ 99.00</price>
+    <category>merienda</category>
+  </menu>
+  <menu>
+    <image>fries.png</image>
+    <title>CARBONARA</title>
+    <price>₱ 149.00</price>
+    <category>merienda</category>
+  </menu>
+  <menu>
+    <image>pasta.png</image>
+    <title>FRENCH FRIES</title>
+    <price>₱ 149.00</price>
+    <category>merienda</category>
+  </menu>
+  <menu>
+    <image>image (1).webp</image>
+    <title>Roast Beef &amp; Cream Cheese Overload</title>
+    <price>₱ 386.00</price>
+    <category>pizza</category>
+  </menu>
+</DayoOnlineOrderingSystem>

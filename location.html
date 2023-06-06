@@ -34,60 +34,25 @@
 
         <body>
         
-          <div class="containers" id="containers">
-            <div class="form-container sign-up-container">
-                <form action="#">
-                    <h1>Delivery</h1>
-                    
-                    <div class="infield">
-                        <input type="text" placeholder="Name" />
-                        <label></label>
-                    </div>
-                    <div class="infield">
-                        <input type="number" placeholder="Phone Number" name="number"/>
-                        <label></label>
-                    </div>
-                    <div class="infield">
-                        <input type="text" placeholder="Address" />
-                        <label></label>
-                    </div>
-                    <button>Submit</button>
-                </form>
-            </div>
-            <div class="form-container sign-in-container">
-                <form action="#">
-                    <h1>Pick Up</h1>
-                    
-                    <div class="infield">
-                        <input type="text" placeholder="Name" name="name"/>
-                        <label></label>
-                    </div>
-                    <div class="infield">
-                        <input type="time" placeholder="time" />
-                        <label></label>
-                    </div>
-                   
-                    <button>Submit</button>
-                </form>
-            </div>
-            <div class="overlay-container" id="overlayCon">
-                <div class="overlay">
-                    <div class="overlay-panel overlay-left">
-                        <h1>Pick Up</h1>
-                        <p>Need a quick and easy way to enjoy our delicious food? </p>
-                        <button>Pick Up</button>
-                        
-                    </div>
-                    
-                    <div class="overlay-panel overlay-right">
-                        <h1>Delivery</h1>
-                        <p></span> No time to go out? We'll bring the food to you</p>
-                        <button >Delivery</button>
-                    </div>
-                </div>
-                <button id="overlayBtn" class="btnScaled"></button>
-            </div>
-        </div>
+          <div class="delivery-form">
+  <h2>Delivery Form</h2>
+  <form action="#">
+    <div class="form-group">
+      <label for="name">Name</label>
+      <input type="text" id="name" placeholder="Enter your name" required>
+    </div>
+    <div class="form-group">
+      <label for="phone">Phone Number</label>
+      <input type="tel" id="phone" placeholder="Enter your phone number" required>
+    </div>
+    <div class="form-group">
+      <label for="address">Address</label>
+      <input type="text" id="address" placeholder="Enter your address" required>
+    </div>
+    <button type="submit">Submit</button>
+  </form>
+</div>
+
 
         <footer class="footer">
             <div class="container">

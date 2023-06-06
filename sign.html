@@ -14,10 +14,13 @@
 <body>
         <!--navbar-->
         <header>
+            <nav>
             <a href="#" class="logo">
-                <img src="logo.jpg" alt="">
+                <img src="images/logo.jpg" alt="">
             </a>
-        <nav>
+            <input type="checkbox" id="check">
+            <label for="check" id="checkbtn"><i class="fa-solid fa-bars"></i></label>
+           
             <ul >
                 <li><a href="index.html" class="active">HOME</a></li>
                 <li><a href="menu.html">MENU</a></li>
@@ -25,65 +28,22 @@
                 <li><a href="location.html">LOCATION</a></li>
                 <li><a href="reservation.html">RESERVATION</a></li>
             </ul>
-            <li><a href="index.html" class="act">HOME</a></li>
-            <li><a href="signin.html" class="sign">Sign In</a></li>
         </nav>
         </header>
 
         <body>
         
-          <div class="containers" id="containers">
-            <div class="form-container sign-up-container">
-                <form action="#">
-                    <h1>Delivery</h1>
-                    
-                    <div class="infield">
-                        <input type="text" placeholder="Name" />
-                        <label></label>
-                    </div>
-                    <div class="infield">
-                        <input type="number" placeholder="Phone Number" name="number"/>
-                        <label></label>
-                    </div>
-                    <div class="infield">
-                        <input type="text" placeholder="Address" />
-                        <label></label>
-                    </div>
-                    <button>Submit</button>
+            <div class="containers">
+                <form class="login-form">
+                  <h1>Login</h1>
+                  <input type="email" placeholder="Email" required />
+                  <input type="password" placeholder="Password" required />
+                  <button onclick="orderpage()">Login</button>
                 </form>
-            </div>
-            <div class="form-container sign-in-container">
-                <form action="#">
-                    <h1>Pick Up</h1>
-                    
-                    <div class="infield">
-                        <input type="text" placeholder="Name" name="name"/>
-                        <label></label>
-                    </div>
-                    <div class="infield">
-                        <input type="time" placeholder="time" />
-                        <label></label>
-                    </div>
-                   
-                    <button>Submit</button>
-                </form>
-            </div>
-            <div class="overlay-container" id="overlayCon">
-                <div class="overlay">
-                    <div class="overlay-panel overlay-left">
-                        <h1>Pick Up</h1>
-                        <p>Need a quick and easy way to enjoy our delicious food? </p>
-                        <button>Pick Up</button>
-                    </div>
-                    <div class="overlay-panel overlay-right">
-                        <h1>Delivery</h1>
-                        <p>No time to go out? We'll bring the food to you </p>
-                        <button>Delivery</button>
-                    </div>
+                <div class="signup-link">
+                  <p>Don't have an account? <a href="#">Sign Up</a></p>
                 </div>
-                <button id="overlayBtn"></button>
-            </div>
-        </div>
+              </div>
 
         <footer class="footer">
             <div class="container">
@@ -127,4 +87,13 @@
             </div>
         
         </footer>
+
+        <script src="main.js"></script>
+        <script>
+        function orderpage(){
+            document.location.href="index.html";
+        }
+</script>
+</body>
+</html>
         

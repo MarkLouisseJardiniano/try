@@ -154,8 +154,8 @@ nav li a:hover {
 }
 .order {
     display: flex;
-    position: absolute;
-    left: 43%;
+    align-items: center;
+    justify-content: center;
     margin-top: 40px;
 }
 .order button {
@@ -336,7 +336,7 @@ ul{
 	color: #24262b;
 	background-color: #ffffff;
 }
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 600px) {
     html,body {
         width: 100%;
         height: 100%;
@@ -398,12 +398,16 @@ ul{
             text-align: center;
             margin-bottom: 6px;
             color: #fff;
-            font-size: 1.5rem;
+            font-size: 1.7rem;
         }
         .menu-item p {
             text-align: center;
             color: #fff;
             font-size: .8rem;
+            width: 300px;
+            display: block;
+            margin-left: auto;
+            margin-right:auto;
         }
         .menu-item img{
             width: 65%;
@@ -414,18 +418,14 @@ ul{
             margin-top: 0px;
         }
         .order {
-             display: flex;
+            display: flex;
              justify-content: center;
              align-items: center;
-             left: 29%;
         }
-        .order button {
-            flex-basis: 38%;
+        .order-btn button {
             height: 55px;
-            width: 180px;
+            width: 160px;
             border-radius: 25px;
-            border: 0;
-            outline: 0;
             cursor: pointer;
             transition: background 1s;
             background: #141728;
@@ -449,7 +449,7 @@ ul{
             border-radius: 15px;
         }
         .about-text {
-            width: 300px;
+            width: 400px;
         }
         .aboutmain {
             width: 1130px;
@@ -475,6 +475,10 @@ ul{
             font-size: 16px;
             margin-bottom: 0px;
             text-align: center;
+            width: 400px;
+            margin-left: auto;
+            margin-right: auto;
+
         }
 
         .gallery- h5{
@@ -500,6 +504,7 @@ ul{
         .footer{
             background-color: #141728;
             padding: 60px 0;
+            width: 100%;
         }
         .footer-col{
            width: 25%;
@@ -540,7 +545,7 @@ ul{
             transition: all 0.5s ease;
         }
 }
-@media screen and (min-width: 415px) and (max-width: 600px) {
+@media screen and (min-width: 601px) and (max-width: 767px) {
     html,body {
         width: 100%;
         height: 100%;
@@ -845,7 +850,7 @@ ul{
     margin-left: 15px;
 
 }
-@media  screen and (max-width: 414px) {
+@media  screen and (max-width: 600px) {
     html,body {
         width: 100%;
         height: 100%;
@@ -858,7 +863,7 @@ ul{
         float: left;
         align-items: center;
         justify-content: center;        margin-top: 17px;
-        margin-left: 45px;
+        margin-left: 265px;
         margin-top: 23px;
         font-size: 18px;
         font-weight: bold;
@@ -952,15 +957,15 @@ ul{
     .food-item {
         background: none;
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
         grid-gap: 20px;
         justify-items: center;
         margin-top: 20px;
     }
     
     .food-items {
-            width: 280px;
-            height: 300px;
+            width: 320px;
+            height: 340px;
             background: #fff;
             border-color: #141728;
             border-style: solid;
@@ -992,11 +997,15 @@ ul{
         margin-bottom: 16px;
         color: #141728;
         font-size: 1.5rem;
+        width: 280px;
+        margin-left: auto;
+        margin-right: auto;
     }
     .food-items p {
         text-align: center;
         margin-bottom: 10px;
-        margin-left: 10px;
+        margin-left: auto;
+        margin-right: auto;
         font-size: .9rem;
         width: 250px;
     }
@@ -1181,7 +1190,7 @@ ul{
     background-color: #141728;
 }
 
-@media screen and (max-width:414px){
+@media screen and (max-width:600px){
     .reservations{
         background-color: #fff;
         height: 800px;
@@ -1205,14 +1214,14 @@ ul{
         justify-content: center;
         align-items: center;
         background-color: #fff;
-        width: 340px;
+        width: 530px;
         border-radius: 25px;
         height: 550px;
         position: relative;
 
     }
     .reserve-input label {
-        width: 100px;
+        width: 200px;
         margin-top: 20px;
         font-size: 16px;
         font-weight: bold;
@@ -1222,7 +1231,7 @@ ul{
     }
     .reserve-input input {
         height: 40px;
-        width: 140px;
+        width: 220px;
         box-shadow: 25px 30px 55px #5557;
         margin-bottom: 10px;
         font-size: 14px;
@@ -1480,12 +1489,12 @@ a.forgot{
 
 
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 600px) {
     .containers {
         margin-top: 40px;
         margin-bottom: 20px;
         position: relative;
-        width: 340px;
+        width: 520px;
         height: 500px;
         margin-left: 40px;
         background-color: #fff;
@@ -1495,7 +1504,7 @@ a.forgot{
     }
     .form-container{
         position: absolute;
-        width: 60%;
+        width: 400px;
         height: 100%;
         padding: 0px 40px;
         transition: all 0.06s ease-in-out;
@@ -1513,18 +1522,21 @@ a.forgot{
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        padding:0;
+        padding: 0;
     }
      .form-container h1{
         color: #141728;
         width: 100px;
         margin-top: 0px;
-        font-size: 14px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        font-size: 16px;
     }
     .overlay-container h1{
         color: #fff;
         width: 100px;
-        font-size: 14px;
+        font-size: 16px;
     }
     .social-container {
         margin: 20px 0px;
@@ -1547,7 +1559,7 @@ a.forgot{
         width: 100%;
     }
     .infield input {
-        width: 100px;
+        width: 200px;
         margin-left: 10px;
         background-color: #eeeeee;
         border: none;
@@ -1599,38 +1611,44 @@ a.forgot{
         position: absolute;
         top: 0;
         left: 60%;
-        width: 40%;
+        width: 30%;
         height: 100%;
         overflow: hidden;
         transition: transform 0.6s ease-in-out;
         z-index: 9;
     }
-    #overlayBtn {
-        cursor: pointer;
-        position: absolute;
-        left: 50%;
-        top: 304px;
-        transform: translateX(-50%);
-        width: 143.67px;
-        height: 40px;
+    .overlay-left #overlayBtn {
+        top: 370px;
+        transform: translate(-50%);
+        width: 151px;
+        height: 42px;
         border: 1px solid #000;
         background: transparent;
         border-radius: 20px;
-    
     }
+    .overlay-right #overlayBtn {
+        width: 151px;
+        height: 42px;
+        border: 1px solid #000;
+        background: transparent;
+        border-radius: 20px;
+    }
+    
     .overlay{
         position: relative;
         background: #141728;
         color: #000;
-        left: -150%;
+        left: -197%;
         height: 100%;
         width: 250%;
         transition: transform 0.6s ease-in-out;
     }
+    .overlay p{
+        width: 100px;
+    }
     .overlay-container {
         position: relative;
-        width: 100%;
-        margin-top: 20px;
+        width: 400px;
     }
     .right-panel-active .overlay-container {
         right: 0;
@@ -1638,7 +1656,52 @@ a.forgot{
         width: 40%;
         transform: translateX(0%);
     }
+    .right-panel-active h1{
+        width: 100px;
+        margin-left: 260px;
+
+    }
+    .right-panel-active p{
+        width: 100px;
+        margin-left: 260px;
+
+    }
+    .overlay-left button{
+        margin-left: 260px;
+        width: 150px;
     
+    }
+    .right-panel-active #overlayBtn {
+        top: 322px;
+        margin-left: 0px;
+
+    }
+    .overlay-panel button{
+        border: none;
+        background-color: transparent;
+    }
+    .right-panel-active .overlay-container{
+        transform: translateX(0%);
+    }
+    .right-panel-active .overlay{
+        transform: translateX(50%);
+    }
+    .right-panel-active .overlay-left{
+        transform: translateX(25%);
+    }
+    .right-panel-active .overlay-right{
+        transform: translateX(65%);
+    }
+    .right-panel-active .sign-in-container{
+        transform: translateX(20%);
+        opacity: 0;
+    }
+    .right-panel-active .sign-up-container{
+        transform: translateX(66.7%);
+        opacity: 1;
+        z-index: 5;
+        animation: show 0.6s;
+    }
 }
 
 .privacy {
@@ -1664,7 +1727,7 @@ a.forgot{
     margin-bottom: 20px;
 }
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 600px) {
     .privacy {
         margin-right: 30px;
         margin-left: 30px;

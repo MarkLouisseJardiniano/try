@@ -18,7 +18,7 @@
 <header>
         <nav>
             <a href="#" class="logo">
-                <img src="logo.jpg" alt="">
+                <img src="images/logo.jpg" alt="">
             </a>
             <input type="checkbox" id="check">
             <label for="check" id="checkbtn"><i class="fa-solid fa-bars"></i></label>
@@ -155,7 +155,20 @@
 
 
 
+<script>
+    // Function to handle the click event on the document
+document.addEventListener('click', function(event) {
+  var check = document.getElementById('check');
+  var checkbtn = document.getElementById('checkbtn');
+  var targetElement = event.target;
 
+  // Check if the clicked element is inside the menu or the hamburger button
+  if (!check.checked || targetElement === checkbtn || targetElement.tagName === 'A') {
+    check.checked = false;
+  }
+});
+
+</script>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
     <script src="main.js"></script>

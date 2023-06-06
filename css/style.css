@@ -336,7 +336,7 @@ ul{
 	color: #24262b;
 	background-color: #ffffff;
 }
-@media screen and (min-width:415px) and (max-width: 600px) {
+@media screen and (max-width: 600px) {
     html,body {
         width: 100%;
         height: 100%;
@@ -346,6 +346,9 @@ ul{
         }
     nav .logo {
         width: 50%;
+        }
+        .navs {
+          display: none;
         }
         nav ul {
             position: fixed;
@@ -509,10 +512,13 @@ ul{
         
         }
         .gallery img {
-            width: 360px;
+            width: 85%;
             height: 350px;
             margin-top: 50px;
             margin-bottom: 30px;
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
             border-radius: 25px;
         }
         .gal- {
@@ -663,7 +669,7 @@ ul{
     margin-left: 15px;
 
 }
-@media screen and (min-width: 415px) and (max-width: 600px) {
+@media screen and (max-width: 600px) {
   html,
   body {
     width: 100%;
@@ -673,7 +679,7 @@ ul{
   header {
     padding-left: 50px;
     margin-top: 0px; 
-    padding-bottom: 30px;
+    padding-bottom: 50px;
   }
 
   .act {
@@ -801,14 +807,16 @@ ul{
   }
 
   .food-items img {
-    width: 50%;
+    width: 100%;
     height: 100%;
-    margin-left: 44px;
+    margin-left: auto;
+    margin-right: auto;
     display: block;
     max-height: 12rem;
     object-fit: cover;
     margin-bottom: 20px;
   }
+
 
   .food-items.active {
     display: block;
@@ -849,105 +857,7 @@ ul{
   
 }
 
-@media  screen and (device-width: 768px) {
-    .dropbtn {
-        display: none;
-    }
-    .food-type {
-        float: left;
-        background-color: #141728;
-        width: 240px;
-        height: 1000px;
-    }
-    .food-filter {
-        list-style: none;
-    }
-    .food-filter button {
-        display: block;
-        position: relative;
-        align-items: center;
-        background: none;
-        font-size: 18px;
-        margin-top: 45px;
-        border: none;
-        margin-left: 30px;
-        text-transform: uppercase;
-        color: #fff;
-        padding: 20px;
-    }
-    .item-heading {
-        font-size: 3rem;
-    }
-    .item-btn {
-        padding: 20px;
-        text-align: center;
-        margin-top: 10px;
-        color: #141728;
-    }.food-item {
-        background: none;
-        display: grid;
-        grid-template-columns: repeat(2,1fr);
-        grid-gap: 0;
-        width: 200px;
-        margin-left: 32px;
-        align-items: center;
 
-    }
-    .food-items {
-        width: 240px;
-        background: #fff;
-        border-color: #141728;
-        border-style: solid;
-        box-shadow: #141728;
-        text-align: center;
-        padding-bottom: 1%;
-        padding-top: 0px;
-        border-radius: 15px;
-        padding: 0px;
-        margin: 10px;
-        border-width: 5px 5px 5px 5px;
-    }
-    .food-items.active {
-            display: block;
-    }
-    .food-items h1{
-        text-align: center;
-        margin-bottom: 16px;
-        color: #141728;
-        font-size: 1.5rem;
-    }
-    .food-items p {
-        text-align: center;
-        margin-bottom: 10px;
-        margin-left: 22px;
-        font-size: .9rem;
-        width: 190px;
-    }
-    .food-items img{
-        width: 50%;
-        margin-left: 70px;
-        height: 10rem;
-        overflow: hidden;
-        align-items: center;
-    }
-    .food-item button {
-        height: 40px;
-        width: 150px;
-        border-radius: 20px;
-        border: 0;
-        outline: 0;
-        cursor: pointer;
-        transition: background 1s;
-        background: #141728;
-        color: #fff;
-        font-size: 1.2rem;
-        font-weight: bold;
-        margin-bottom: 10px;
-        align-self: center;
-        margin-top: auto;
-        margin-left: 42px;
-    }
-}
 .reservations{
     background-color: #fff;
     height: 800px;
@@ -1010,7 +920,7 @@ ul{
     background-color: #141728;
 }
 
-@media screen and (min-width: 415px) and (max-width: 600px) {
+@media screen and (max-width: 600px) {
   .reservations {
     background-color: #fff;
     height: 800px;
@@ -1018,7 +928,7 @@ ul{
   }
 
   .reservations h2 {
-    width: 300px;
+    width: 250px;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
@@ -1036,7 +946,7 @@ ul{
     justify-content: center;
     align-items: center;
     background-color: #fff;
-    width: 90%;
+    width: 95%;
     border-radius: 25px;
     height: auto;
     position: relative;
@@ -1046,7 +956,7 @@ ul{
 
   .reserve-input label {
     width: 100%;
-    max-width: 200px;
+    max-width: 85px;
     margin-top: 20px;
     font-size: 16px;
     font-weight: bold;
@@ -1057,7 +967,7 @@ ul{
   .reserve-input input {
     height: 40px;
     width: 100%;
-    max-width: 220px;
+    max-width: 200px;
     box-shadow: 25px 30px 55px #5557;
     margin-bottom: 10px;
     font-size: 14px;
@@ -1140,6 +1050,7 @@ ul{
   @media screen and (max-width: 600px) {
     .delivery-form {
       padding: 10px;
+      margin-top: 50px;
     }
     
     .delivery-form h2 {
@@ -1187,7 +1098,7 @@ ul{
     margin-bottom: 20px;
 }
 
-@media screen and (min-width: 415px) and (max-width: 600px) {
+@media screen and (max-width: 600px) {
     html,
     body {
       width: 100%;
@@ -1255,7 +1166,7 @@ ul{
     justify-content: center;
 }
 
-@media screen and (min-width: 415px) and (max-width: 600px) {
+@media screen and (max-width: 600px) {
     .faq h1 {
       display: block;
       margin-left: auto;
@@ -1319,7 +1230,7 @@ ul{
     margin-left: 180px;
 }
 
-@media screen and (min-width: 415px) and (max-width: 600px) {
+@media screen and (max-width: 600px) {
     .access h1 {
       font-size: 1.7rem;
       display: block;
@@ -1395,7 +1306,7 @@ ul{
     justify-content: center;
 }
 
-@media screen and (min-width: 415px) and (max-width: 600px) {
+@media screen and (max-width: 600px) {
     .frans h1 {
       font-size: 1.7rem;
       margin-left: auto;
@@ -1489,7 +1400,7 @@ ul{
 }
 
 
-@media  screen and (min-width: 415px) and (max-width: 600px) {
+@media  screen and (max-width: 600px) {
     .condition h1 {
         display: block;
         margin-left: auto;
@@ -1584,7 +1495,7 @@ ul{
     border-radius: 25px;
 }
 
-@media screen and (min-width: 415px) and (max-width: 600px) {
+@media screen and (max-width: 600px) {
     .rev h1 {
       display: block;
       margin-left: auto;
@@ -1709,7 +1620,7 @@ ul{
 .group p {
     text-align: center;
 }
-@media screen and (min-width: 415px) and (max-width: 600px) {
+@media screen and (max-width: 600px) {
     .groups {
       justify-content: center;
       margin-left: 0;
@@ -1754,6 +1665,7 @@ ul{
   
   .login-form {
     width: 300px;
+    height: 340px;
     border-radius: 5px;
     padding: 20px;
     background-color: #fff;
@@ -1764,6 +1676,7 @@ ul{
     text-align: center;
     font-size: 24px;
     margin-bottom: 20px;
+    margin-top: 40px;
   }
   
   .login-form input {
